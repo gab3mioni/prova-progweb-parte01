@@ -1,0 +1,19 @@
+{
+    "name": "hatelyzz/prova-progweb-parte01",
+    "type": "project",
+    "license": "mIT",
+    "autoload": {
+        "psr-4": {
+            "Hatelyzz\\ProvaProgwebParte01\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabriel Mioni",
+            "email": "104784563+gab3mioni@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "symfony/dotenv": "^7.3"
+    }
+}
