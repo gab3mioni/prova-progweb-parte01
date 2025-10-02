@@ -14,6 +14,7 @@ $flash = $flash ?? null;
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
     <div class="container">
         <a class="navbar-brand" href="/public/index.php?controller=produto&action=listar">Vendas</a>
+        <a class="navbar-brand" href="/public/index.php?controller=venda&action=dashboard">Dashboard</a>
         <div>
             <a class="btn btn-outline-light btn-sm" href="/public/index.php?controller=venda&action=historico">Histórico</a>
         </div>

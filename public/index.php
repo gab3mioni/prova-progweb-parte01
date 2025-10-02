@@ -25,7 +25,7 @@ $action = $_GET['action'] ?? 'listar';
 
 $map = [
     'produto' => [App\Controllers\ProdutoController::class, ['listar']],
-    'venda'   => [App\Controllers\VendaController::class, ['registrar','historico']],
+    'venda'   => [App\Controllers\VendaController::class, ['registrar','historico', 'dashboard']],
 ];
 
 if (!isset($map[$controller])) {

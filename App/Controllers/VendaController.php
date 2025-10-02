@@ -49,4 +49,10 @@ final class VendaController extends Controller
         $vendas = (new Venda())->all();
         $this->view($this->basePath, 'historico', compact('vendas'));
     }
+
+    public function dashboard(): void
+    {
+        $data = (new Venda())->dashboardData();
+        $this->view($this->basePath, 'dashboard', $data);
+    }
 }

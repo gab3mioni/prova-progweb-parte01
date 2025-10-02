@@ -16,10 +16,3 @@ CREATE TABLE vendas (
                         data_venda DATETIME DEFAULT CURRENT_TIMESTAMP,
                         FOREIGN KEY (produto_id) REFERENCES produtos(id)
 );
-
-INSERT INTO produtos (nome, valor, estoque) VALUES
-                                                ('Notebook Lenovo', 3500.00, 10),
-                                                ('Smartphone Samsung', 2200.00, 15),
-                                                ('Fone de Ouvido Bluetooth', 250.00, 30),
-                                                ('Monitor LG 24"', 900.00, 8),
-                                                ('Teclado Mecânico', 350.00, 20);
